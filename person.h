@@ -3,7 +3,6 @@
 
 #define MAX_STR_LEN 100
 #define DELIM ","
-#define DELIM_CHAR ','
 
 typedef struct {
     int day;
