@@ -212,6 +212,7 @@ void swapPersons(void *arr, int i, int j) {
 *                     file into the array
 **************************************************************************************************************/
 void load(const char *inputFile, Person persons[], int *numOfPersonsPtr) {
+    *numOfPersonsPtr = 0;
     char str[MAX_STR_LEN];
     char personArr[PERSON_PARAMS][MAX_STR_LEN];
     //open the file in read mode
